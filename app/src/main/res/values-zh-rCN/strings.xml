@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AudioRecorder</string>
+    <string name="hold_record">按住录音</string>
+    <string name="click_record">点击弹出录音</string>
+</resources>

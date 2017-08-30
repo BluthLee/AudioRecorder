@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="drag_cancel">上滑取消</string>
-    <string name="let_go_cancel">松手即可取消</string>
-    <string name="canceled">已取消</string>
-</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="drag_cancel">Drag Up to Cancel</string>
+    <string name="let_go_cancel">Let Go to Cancel</string>
+    <string name="canceled">Canceled</string>
+    <string name="hold_to_record">Hold to Record</string>
+</resources>
