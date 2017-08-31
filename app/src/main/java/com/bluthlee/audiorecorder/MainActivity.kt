@@ -15,11 +15,11 @@ import kotlinx.android.synthetic.main.activity_main.*
  */
 class MainActivity : AppCompatActivity() {
 
-    lateinit var floatAudioRecorder: FloatAudioRecorder
+    private lateinit var floatAudioRecorder: FloatAudioRecorder
 
-    val dirPath = Environment.getExternalStorageDirectory().absolutePath + "/audio_recorder"
-    val dragDirPath = dirPath + "/drag"
-    val floatDirPath = dirPath + "/float"
+    private val dirPath = Environment.getExternalStorageDirectory().absolutePath + "/audio_recorder"
+    private val dragDirPath = dirPath + "/drag"
+    private val floatDirPath = dirPath + "/float"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

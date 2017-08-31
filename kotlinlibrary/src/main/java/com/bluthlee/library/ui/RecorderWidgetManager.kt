@@ -24,7 +24,7 @@ internal class RecorderWidgetManager {
         fun initFloatAudioRecorder(context: Context, dataBinder: DataBinder): RecorderWidget {
 //            var downX = 0F
 //            var downY = 0F
-            val recorderWidget: FloatRecorderWidget = RecorderWidgetFactory.getRecorderWidget(dataBinder.style, context, dataBinder) as FloatRecorderWidget
+            val recorderWidget: FloatRecorderWidget = RecorderWidgetFactory.getRecorderWidget(DataBinder.STYLE_FLOAT, context, dataBinder) as FloatRecorderWidget
             recorderWidget.setStatus(RecorderWidget.STATUS_IDLE)
             setTouchListener(recorderWidget.recorderView, recorderWidget)
 

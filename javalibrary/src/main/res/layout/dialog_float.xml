@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_float"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="200dp"
+        android:layout_height="0dp" />
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:background="@drawable/bg_selectable"
+        android:padding="3dp"
+        android:src="@drawable/ic_close_white_24dp"
+        android:tint="#9E9E9E" />
+
+    <Chronometer
+        android:id="@+id/chronometer_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#424242"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iv_recorder"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ic_round_red"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_mic_white_48dp" />
+
+    <TextView
+        android:id="@+id/tv_dialog_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#424242"
+        android:textSize="14sp"
+        tools:text="@string/hold_to_record" />
+
+</LinearLayout>
