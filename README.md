@@ -1,6 +1,6 @@
 # AudioRecorder
 
-该库是一个使用Kotlin开发的录音模块，用于Android平台。目前包含两种样式：DragAudioRecorder，FloatAudioRecorder.
+该库是一个录音模块，用于Android平台，分别有使用Java和Kotlin实现的两套代码，目前包含两种样式：DragAudioRecorder，FloatAudioRecorder.
 
 ![DragAudioRecorder](https://github.com/BluthLee/AudioRecorder/raw/master/images/drag_audio_recorder.png "DragAudioRecorder")
 ![FloatAudioRecorder](https://github.com/BluthLee/AudioRecorder/blob/master/images/float_audio_recorder.png "FloatAudioRecorder")
